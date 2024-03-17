@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+nav{
+    height: 60px; 
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+    padding: 0 30px;
+}
+#icon{
+    color: white;
+    border: 1px solid #000;
+    border-radius: 50%;
+    padding: 5px 6px;
+    font-size: 20px;
+    background-color: #000;
+    
+}
+nav h4{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+nav h4 a {
+    color: #000;
+    text-decoration: none;
+
+}
+
+
+
+#center{
+    width: 100%;
+    /* background-color: rgb(143, 6, 6); */
+}
+#center h1 {
+    padding: 40px 70px; 
+    padding: 3.3vw 5.05vw; 
+
+    /* font-size: 55px; */
+    font-size: 4.2vw;
+    font-weight: 500;
+    /* line-height: 60px; */
+    line-height: 4.3vw;
+    /* letter-spacing: 1px; */
+    letter-spacing: 0.09vw;
+}
+#center-in{
+    /* background-color: red; */
+    /* padding: 5px 75px; */
+    padding: 0.5vw 5.2vw;
+    /* line-height: 23px; */
+    line-height: 1.7vw;
+    /* font-size: 18px; */
+    font-size: 1.35vw;
+    display: flex;
+    justify-content: space-between;
+}
+#right{
+    
+    width: 30%;
+}
+.elam{
+    /* background-color: yellow; */
+    
+    padding: 20px;
+    border-top: 2px solid #000 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.elam i {
+    font-size: 25px;
+    font-weight: 500;
+    opacity: 0   ;
+}
+.elam a {
+    color: #444343;
+    text-decoration: none;
+    
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.elam:hover i{
+    opacity : 1;
+}   
+.elam:hover{
+    background-color: rgb(243, 243, 243);
+} 
+.elam:hover a{
+    
+    color: #000;
+}
+#bottom{
+    /* background-color: red; */
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: 0 25%;
+    background-image: url(https://images.unsplash.com/photo-1508418717103-8b56bcf03360?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+@media (max-width:600px) {
+    nav{
+        height: 30px; 
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 17px;
+        padding: 0 20px;
+    }
+    nav h4{
+        font-size: 15px;
+        font-weight: 600;
+    
+    }
+    #icon{
+        color: white;
+        border: 1px solid #000;
+        border-radius: 50%;
+        padding: 2px 2.5px;
+        font-size: 10px;
+        background-color: #000;
+        
+    }
+    #center h1 {
+        /* padding: 40px 70px;  */
+        padding: 5.3vw 5.05vw; 
+    
+        /* font-size: 55px; */
+        font-size: 6.2vw;
+        font-weight: 500;
+        /* line-height: 60px; */
+        line-height: 6.3vw;
+        /* letter-spacing: 1px; */
+        letter-spacing: 0.09vw;
+    }
+    #center-in{
+        /* background-color: red; */
+        /* padding: 5px 75px; */
+        padding: 0.5vw 5.2vw;
+        /* line-height: 23px; */
+        line-height: 3vw;
+        /* font-size: 18px; */
+        font-size: 2.80vw;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+}
+#right{
+ 
+    margin-top: 30px;
+    margin-left: 46%;
+    width: 60%;
+    
+}
+.elam{
+    /* background-color: yellow; */
+    
+    padding: 20px;
+    border-top: 2px solid #000 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.elam i {
+    font-size: 10px;
+    font-weight: 500;
+    opacity: 1  ;
+}
+.elam a {
+    color: #444343;
+    text-decoration: none;
+    
+    font-weight: 600;
+    font-size: 10px;
+}
+
+.elam:hover i{
+    opacity : 1;
+}   
+.elam:hover{
+    background-color: rgb(243, 243, 243);
+} 
+.elam:hover a{
+    
+    color: #000; 
+}
+#bottom{
+    /* background-color: red; */
+    height: 225px;
+    width: 100%;
+    background-size: cover;
+    background-position: 0 22%;
+    background-image: url(https://images.unsplash.com/photo-1508418717103-8b56bcf03360?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}        
+}
